@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: bisque;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid red;
+  padding-left: 20px;
+
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0 30px;
+}
+
+.book-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.hide {
+  display: none;
+}
