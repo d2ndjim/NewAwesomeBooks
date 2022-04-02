@@ -1,6 +1,6 @@
 const bookTitle = document.querySelector('#title')
 const bookAuthor = document.querySelector('#author')
-const bookContainer = document.querySelector('.book-section')
+const bookContainer = document.querySelector(".book-container");
 const addBtn = document.querySelector("#add-btn");
 
 
@@ -71,7 +71,7 @@ const navigate = () => {
   const Contact = document.querySelector("#contact")
   const bookSection = document.querySelector(".book-section");
   const AddSection = document.querySelector(".add-new-book");
-  const ContactSection = document.querySelector(".contact-section");
+  const ContactSection = document.querySelector(".contact");
 
   List.addEventListener('click', () => {
     bookSection.classList.remove('hide')
@@ -94,10 +94,6 @@ const navigate = () => {
 }
 
 navigate()
-
-
-
-
 
 const books = new BookDatabase()
 books.addBook()
